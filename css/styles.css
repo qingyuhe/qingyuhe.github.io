@@ -11587,10 +11587,6 @@ html {
   max-height: 40rem;
   max-width: 40rem;
 }
-.profile:hover {
-  text-decoration: none;
-  color: #000
-}
 .grow-rotate-on-hover {
   display: inline-block;
   vertical-align: middle;
@@ -11606,7 +11602,6 @@ html {
   -webkit-transform: scale(1.1) rotate(-8deg);
   transform: scale(1.1) rotate(-8deg);
 }
-
 .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
