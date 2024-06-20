@@ -11587,9 +11587,6 @@ html {
   max-height: 40rem;
   max-width: 40rem;
 }
-.profile-img:hover {
-  color: #000;
-}
 .grow-rotate-on-hover {
   display: inline-block;
   vertical-align: middle;
