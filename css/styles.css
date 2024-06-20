@@ -54,7 +54,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Plus Jakarta Sans";
+  --bs-font-sans-serif: "Tomorrow";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -11587,6 +11587,7 @@ html {
   max-height: 40rem;
   max-width: 40rem;
 }
+/* Added below from https://codepen.io/techshiva/pen/YMpwKg */
 .grow-rotate-on-hover {
   display: inline-block;
   vertical-align: middle;
@@ -11602,6 +11603,7 @@ html {
   -webkit-transform: scale(1.1) rotate(-8deg);
   transform: scale(1.1) rotate(-8deg);
 }
+/**/
 .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
