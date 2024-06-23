@@ -11858,17 +11858,18 @@ html {
 
 .ticker-wrap {
   width: 100%;
-  height: 80px;
+  height: 4rem;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
   top: 0;
   height: 3.5rem;
-  background-color: #FFCA46; 
+  background-color: var(--bs-primary); 
 }
 .ticker {
   display: inline-block;
-  margin-top: 5px;
+  height: 4rem;
+  line-height: 4rem;  
   animation: marquee 20s linear infinite;
 }
 .item-collection-1 {
@@ -11881,9 +11882,8 @@ html {
   display: inline-block;
   padding: 0 1rem;
   font-size: 2rem;
-  color: black;   
-  font-weight: 800;
-  font-family: sans-serif;
+  color: var(--bs-white);
+  font-size: 3rem; 
 }
 
 /* Transition */
