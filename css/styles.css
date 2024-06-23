@@ -11776,8 +11776,8 @@ html {
 
 .ticker-wrap {
   /* position: fixed; */
+  /* width: 100% */
   top: 0;
-  width: 100%;
   overflow: hidden;
   height: 4rem;
   background-color: rgba(var(--bs-primary-rgb), 0.9); 
@@ -11797,14 +11797,14 @@ html {
             animation-timing-function: linear;
    -webkit-animation-name: ticker;
            animation-name: ticker;
-    -webkit-animation-duration: 30s;
-            animation-duration: 30s;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
 
-    &__item {
+    &-item {
       display: inline-block;
       padding: 0 2rem;
       font-size: 2rem;
-      color: var(--bs-black);   
+      color: var(--bs-white);   
     }
   }
 }
