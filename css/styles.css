@@ -42,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 249, 1, 169;
-  --bs-secondary-rgb: 252, 152, 233;
+  --bs-primary-rgb: 248, 52, 151;
+  --bs-secondary-rgb: 152, 26, 82;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -11776,35 +11776,36 @@ html {
 
 .ticker-wrap {
   /* position: fixed; */
-  width: 100%; 
   top: 0;
-  overflow: hidden;
+  width: 100%;
   height: 4rem;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: rgba(var(--bs-primary-rgb), 1.0); 
-  padding-left: 100%;
+  /* padding-left: 100%; */
+  /* box-sizing: content-box; */
+}
+
+.ticker {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;  
+  white-space: nowrap;
+  padding-right: 100%;
   box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite; 
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+ -webkit-animation-name: ticker;
+         animation-name: ticker;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 
-  .ticker {
+  &__item {
     display: inline-block;
-    height: 4rem;
-    line-height: 4rem;  
-    white-space: nowrap;
-    padding-right: 100%;
-    box-sizing: content-box;
-    -webkit-animation-iteration-count: infinite; 
-            animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-   -webkit-animation-name: ticker;
-           animation-name: ticker;
-    -webkit-animation-duration: 15s;
-            animation-duration: 15s;
-
-    &__item {
-      display: inline-block;
-      padding: 0 2rem;
-      font-size: 2rem;
-      color: var(--bs-white);   
-    }
+    padding: 0 2rem;
+    font-size: 2rem;
+    color: var(--bs-white);   
   }
 }
