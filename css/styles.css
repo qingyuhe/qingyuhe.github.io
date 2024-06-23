@@ -11814,7 +11814,7 @@ html {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
- -webkit-animation-name: ticker;
+  -webkit-animation-name: ticker;
          animation-name: ticker;
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
@@ -11823,7 +11823,14 @@ html {
 .ticker-tape-1 {
   position: relative;
   left: 0%;
-  animation: swap 15s linear infinite;
+  -webkit-animation-iteration-count: infinite; 
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: swap;
+          animation-name: swap; 
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
 }
 
 .ticker-item {
