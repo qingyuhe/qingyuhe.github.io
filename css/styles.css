@@ -34,8 +34,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #f901a9;
-  --bs-secondary: #fc9de9;
+  --bs-primary: #f83497;
+  --bs-secondary: #981a52;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -73,9 +73,9 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f901a9;
-  --bs-link-hover-color: #bb0682;
-  --bs-code-color: #e21e80;
+  --bs-link-color: var(--bs-primary);
+  --bs-link-hover-color: var(--bs-secondary);
+  --bs-code-color: var(--bs-primary);
   --bs-highlight-bg: #fff3cd;
 }
 
@@ -11776,11 +11776,11 @@ html {
 
 .ticker-wrap {
   /* position: fixed; */
-  /* width: 100% */
+  width: 100%; 
   top: 0;
   overflow: hidden;
   height: 4rem;
-  background-color: rgba(var(--bs-primary-rgb), 0.9); 
+  background-color: rgba(var(--bs-primary-rgb), 1.0); 
   padding-left: 100%;
   box-sizing: content-box;
 
