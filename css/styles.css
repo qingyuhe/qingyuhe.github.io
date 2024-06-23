@@ -11774,7 +11774,7 @@ html {
   }
 }
 
-@-webkit-keyframes swap {
+@-webkit-keyframes swapping {
   0%, 50% {
     left: 0%;
   }
@@ -11784,7 +11784,7 @@ html {
   }
 }
 
-@keyframes swap {
+@keyframes swapping {
   0%, 50% {
     left: 0%;
   }
@@ -11827,8 +11827,8 @@ html {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-name: swap;
-          animation-name: swap; 
+  -webkit-animation-name: swapping;
+          animation-name: swapping; 
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
 }
