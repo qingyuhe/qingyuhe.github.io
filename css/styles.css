@@ -11750,7 +11750,7 @@ html {
   }
 }
 /* Added ticker tape */
-@-webkit-keyframes marquee {
+/* @-webkit-keyframes marquee {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -11771,6 +11771,24 @@ html {
   100% {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
+  }
+} */
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-100%)
   }
 }
 
@@ -11797,18 +11815,19 @@ html {
   height: 4rem;
   width: 100%;
   overflow: hidden;
+  /* padding-left: 100%; */
+  /* box-sizing: content-box; */
+  white-space: nowrap;
   background-color: rgba(var(--bs-primary-rgb), 1.0); 
-  padding-left: 100%;
-  box-sizing: content-box;
 }
 
 .ticker {
   display: inline-block;
   height: 4rem;
   line-height: 4rem;  
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* padding-right: 100%; */
-  box-sizing: content-box;
+  /* box-sizing: content-box; */
   -webkit-animation-iteration-count: infinite; 
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
