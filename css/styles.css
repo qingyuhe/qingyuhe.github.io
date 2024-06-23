@@ -11862,7 +11862,6 @@ html {
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
-  position: fixed;
   top: 0;
   height: 3.5rem;
   background-color: #FFCA46; 
