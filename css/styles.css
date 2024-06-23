@@ -11750,7 +11750,7 @@ html {
   }
 }
 /* Added ticker tape */
-@-webkit-keyframes ticker {
+@-webkit-keyframes marquee {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -11762,7 +11762,7 @@ html {
   }
 }
 
-@keyframes ticker {
+@keyframes marquee {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -11774,7 +11774,7 @@ html {
   }
 }
 
-@-webkit-keyframes swapping {
+@-webkit-keyframes swap {
   0%, 50% {
     left: 0%;
   }
@@ -11784,7 +11784,7 @@ html {
   }
 }
 
-@keyframes swapping {
+@keyframes swap {
   0%, 50% {
     left: 0%;
   }
@@ -11797,6 +11797,7 @@ html {
 .ticker-wrap {
   top: 0;
   height: 4rem;
+  width: 100%; 
   overflow: hidden;
   background-color: rgba(var(--bs-primary-rgb), 1.0); 
   padding-left: 100%;
@@ -11814,8 +11815,8 @@ html {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-name: ticker;
-         animation-name: ticker;
+  -webkit-animation-name: marquee;
+         animation-name: marquee;
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
 }
@@ -11827,8 +11828,8 @@ html {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-name: swapping;
-          animation-name: swapping; 
+  -webkit-animation-name: swap;
+          animation-name: swap; 
   -webkit-animation-duration: 15s;
           animation-duration: 15s;
 }
