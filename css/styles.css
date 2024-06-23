@@ -11797,7 +11797,7 @@ html {
 .ticker-wrap {
   top: 0;
   height: 4rem;
-  width: 100%; 
+  width: 100%;
   overflow: hidden;
   background-color: rgba(var(--bs-primary-rgb), 1.0); 
   padding-left: 100%;
