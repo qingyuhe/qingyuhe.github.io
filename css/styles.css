@@ -11579,12 +11579,13 @@ html {
 }
 
 .profile {
-  position: relative;
+  /* position: relative; */
+  position: absolute; 
   height: 75vw;
-  width: 75vw;
+  /* width: 75vw; */
   margin-top: 5vw;
   max-height: 40rem;
-  max-width: 40rem;
+  /* max-width: 40rem; */
   background-image: url("/assets/profile.png");
 }
 
