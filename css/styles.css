@@ -11580,17 +11580,22 @@ html {
 
 .profile {
   background-image: url("/assets/profile.png");
+  background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  height: 80vw;
   width: 80vw; 
   margin-top: 5vw;
+  max-height: 45rem;
   max-width: 45rem;
 }
 
 /* Added below from https://codepen.io/techshiva/pen/YMpwKg */
 .grow-rotate-on-hover {
   background-image: url("/assets/profile.png");
+  background-repeat: no-repeat;
   background-size: contain;
+
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -11603,6 +11608,8 @@ html {
 }
 .grow-rotate-on-hover:hover, .grow-rotate-on-hover:focus, .grow-rotate-on-hover:active {
   background-image: url("/assets/profile2.png");
+  background-repeat: no-repeat;
+  
   -webkit-transform: scale(1.1) rotate(-8deg);
           transform: scale(1.1) rotate(-8deg);
 }
