@@ -11582,10 +11582,8 @@ html {
   background-image: url("/assets/profile.png");
   background-size: contain;
   position: relative;
-  height: 80vw;
   width: 80vw; 
   margin-top: 5vw;
-  max-height: 45rem;
   max-width: 45rem;
 }
 
