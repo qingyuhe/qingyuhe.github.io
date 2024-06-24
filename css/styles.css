@@ -11750,66 +11750,6 @@ html {
   }
 }
 /* Added ticker tape */
-/* @-webkit-keyframes marquee {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes marquee {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-} */
-
-/* @-webkit-keyframes marquee {
-  0% {
-    transform: translateX(0)
-  }
-  100% {
-    transform: translateX(-100%)
-  }
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0)
-  }
-  100% {
-    transform: translateX(-100%)
-  }
-}
-
-@-webkit-keyframes swaps {
-  0%, 50% {
-    left: 0%;
-  }
-  50.01%, 100% {
-    left: 100%;
-  }
-}
-
-@keyframes swaps {
-  0%, 50% {
-    left: 0%;
-  }
-  50.01%, 100% {
-    left: 100%;
-  }
-} */
-
 /* .ticker-wrap {
   top: 0;
   height: 4rem;
@@ -11886,12 +11826,31 @@ html {
 }
 
 /* Transition */
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0)
   }
   100% {
     transform: translateX(-100%)
+  }
+}
+
+@-webkit-keyframes swap {
+  0%, 50% {
+    left: 0%;
+  }
+  50.01%,
+  100% {
+    left: 100%;
   }
 }
 
@@ -11904,3 +11863,11 @@ html {
     left: 100%;
   }
 }
+
+/* Start https://www.cursors-4u.com */ 
+* {
+  cursor: url(https://cur.cursors-4u.net/cursors/cur-3/cur243.ani),
+  url(https://cur.cursors-4u.net/cursors/cur-3/cur243.png), 
+  auto !important;
+} 
+/* End https://www.cursors-4u.com */
