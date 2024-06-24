@@ -11587,13 +11587,8 @@ html {
   max-height: 40rem;
   max-width: 40rem;
 }
-/* Added rollover */
-.rollover-on-hover {
-  background-image: url("/assets/profile.png");
-  /* opacity: 0; */
-  /* transition: opacity .2s; */
-}
 
+/* Added rollover */
 .rollover-on-hover:hover, .rollover-on-hover:focus, .rollover-on-hover:active {
   background-image: url("/assets/profile2.png");
 }
@@ -11614,7 +11609,7 @@ html {
   -webkit-transform: scale(1.1) rotate(-8deg);
           transform: scale(1.1) rotate(-8deg);
 }
-/**/
+
 .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
@@ -11623,7 +11618,9 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
-.profile .dots-1 {
+/**/
+
+/* .profile .dots-1 {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
@@ -11658,7 +11655,7 @@ html {
 }
 .profile .dots-4 svg {
   fill: #1e30f3;
-}
+} */
 
 @media (min-width: 576px) {
   .profile {
