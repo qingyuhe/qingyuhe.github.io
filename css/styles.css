@@ -11866,5 +11866,5 @@ html {
 
 /* Added custom cursor */ 
 * {
-  cursor: url(cur1089.cur), url(css/cursor.cur), auto !important;
+  cursor: url(assets/cursor.cur), auto !important;
 }
