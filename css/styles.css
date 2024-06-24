@@ -11581,10 +11581,9 @@ html {
 .profile {
   position: relative;
   height: 80vw;
-  /* width: 75vw; */
   margin-top: 5vw;
   max-height: 45rem;
-  /* max-width: 40rem; */
+  background-size: contain;
   background-image: url("/assets/profile.png");
 }
 
@@ -11606,16 +11605,6 @@ html {
           transform: scale(1.1) rotate(-8deg);
   background-image: url("/assets/profile2.png");
 }
-
-/* .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-} */
-/**/
 
 /* .profile .dots-1 {
   position: absolute;
