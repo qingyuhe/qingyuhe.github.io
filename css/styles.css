@@ -11580,10 +11580,10 @@ html {
 
 .profile {
   position: relative;
-  /* height: 75vw; */
+  height: 75vw;
   width: 75vw;
   margin-top: 5vw;
-  /* max-height: 40rem; */
+  max-height: 40rem;
   max-width: 40rem;
   background-image: url("/assets/profile.png");
 }
