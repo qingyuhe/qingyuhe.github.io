@@ -11578,13 +11578,17 @@ html {
   font-size: 1.5rem;
 }
 
-.profile .rollover-on-hover {
+.profile {
   position: relative;
   /* height: 75vw; */
   width: 75vw;
   margin-top: 5vw;
   /* max-height: 40rem; */
   max-width: 40rem;
+  background-image: url("/assets/profile.png");
+}
+
+.rollover-on-hover {
   background-image: url("/assets/profile.png");
 }
 
