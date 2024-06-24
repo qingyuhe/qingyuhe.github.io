@@ -11864,7 +11864,7 @@ html {
   }
 }
 
-/* Start https://www.cursors-4u.com */ 
+/* Added custom cursor */ 
 * {
   cursor: url(cur1089.cur), auto !important;
 }
