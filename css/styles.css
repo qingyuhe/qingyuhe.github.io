@@ -11866,6 +11866,5 @@ html {
 
 /* Start https://www.cursors-4u.com */ 
 * {
-  cursor: asset-url("assets/cur1089.cur", cursor), 
-  auto !important;
-} 
+  cursor: url("assets/cur1089.cur"), auto !important;
+}
