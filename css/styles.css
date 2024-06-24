@@ -11586,6 +11586,7 @@ html {
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  background-image: url("/assets/profile.png");
 }
 
 /* Added rollover */
@@ -11610,14 +11611,14 @@ html {
           transform: scale(1.1) rotate(-8deg);
 }
 
-.profile .profile-img {
+/* .profile .profile-img {
   height: 80vw;
   max-height: 45rem;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 /**/
 
 /* .profile .dots-1 {
