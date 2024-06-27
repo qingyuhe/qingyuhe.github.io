@@ -597,16 +597,17 @@ progress {
   content: "— ";
 }
 
+.video {
+  width: 100%; 
+}
+
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
 .img-poster {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden
+  border: thin solid var(--bs-gray-100);
 }
 
 .img-thumbnail {
