@@ -604,6 +604,7 @@ progress {
 
 .img-poster {
   object-fit: fill;
+  border: thin solid var(--bs-black); 
 }
 
 .img-thumbnail {
