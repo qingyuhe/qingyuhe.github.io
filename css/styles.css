@@ -602,8 +602,7 @@ progress {
   height: auto;
 }
 
-.img-fluid-op {
-  max-height: 100%;
+.img-width-fluid {
   width: auto; 
 }
 
