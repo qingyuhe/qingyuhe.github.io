@@ -603,8 +603,10 @@ progress {
 }
 
 .img-poster {
-  object-fit: fill;
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
 }
 
 .img-thumbnail {
