@@ -602,6 +602,10 @@ progress {
   width: auto;
 }
 
+.img-poster {
+  object-fit: contain;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
