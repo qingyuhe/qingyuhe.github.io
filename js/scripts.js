@@ -22,7 +22,9 @@ function sendEmail() {
         From : "hecynthia@gmail.com",
         Subject : subject.value,
         Body : bodyMessage
-    });
+    }).then(
+        message => alert(message)
+    );
 }
 
 // function checkInputs() {
