@@ -11756,52 +11756,6 @@ html {
   }
 }
 /* Added ticker tape */
-/* .ticker-wrap {
-  top: 0;
-  height: 4rem;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: rgba(var(--bs-primary-rgb), 1.0); 
-} */
-
-/* 
-.ticker {
-  display: inline-block;
-  height: 4rem;
-  line-height: 4rem;  
- 
-  -webkit-animation-iteration-count: infinite; 
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-name: marquee;
-         animation-name: marquee;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-}
-
-.ticker-tape-1 {
-  position: relative;
-  left: 0%;
-  -webkit-animation-iteration-count: infinite; 
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-name: swaps;
-          animation-name: swaps;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-}
-
-.ticker-item {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 3rem;
-  color: var(--bs-white)
-}  
-*/
-
 .ticker-wrap {
   top: 0;
   width: 100%;
