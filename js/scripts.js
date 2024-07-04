@@ -6,6 +6,8 @@ const form = document.querySelector("form");
 // const message = document.getElementById("message"); 
 // const success = document.getElementById("submitSuccessMessage")
 
+var submitted = false; 
+
 
 function sendEmail() {
     // const bodyMessage = `Full Name: ${fullName.value}<br> 
@@ -87,9 +89,10 @@ function sendEmail() {
 // }
 
 form.addEventListener("submit", (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     //checkInputs(); 
     sendEmail(); 
+    form.reset(); 
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //     sendEmail();
