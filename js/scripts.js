@@ -10,15 +10,15 @@ var submitted = false;
 
 form.addEventListener("submit", (e) => {
     if (submitted == true) {
+         //equivalent of form.reset(); 
+         var items = document.querySelectorAll(".form-control");
+         items.forEach(item => item.value = ""); 
+
         Swal.fire({
             title: "Success!",
             text: "Form submission successful!",
             icon: "success"
         });
-        
-        //equivalent of form.reset(); 
-        var items = document.querySelectorAll(".form-control");
-        items.forEach(item => item.value = ""); 
     }
 });
 
