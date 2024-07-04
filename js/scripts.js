@@ -118,7 +118,6 @@ form.addEventListener("submit", (e) => {
     //sendEmail(); 
     sendForm(); 
     form.reset();
-    submitted = false; //added in case it's causing issues
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //      sendEmail();
@@ -126,3 +125,5 @@ form.addEventListener("submit", (e) => {
     //      return false; 
     // }
 });
+
+// submitted = false; //added in case it's causing issues; put after event listener?
