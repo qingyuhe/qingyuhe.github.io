@@ -8,6 +8,16 @@
 
 var submitted = false; 
 
+if (submitted) {
+    Swal.fire({
+        title: "Success!",
+        text: "Form submission successful!",
+        icon: "success"
+    });
+}
+
+form.reset();
+
 // $('#contactForm').on('submit', function(e) {
 //     $('#contactForm *').fadeOut(2000);
 //     $('#contactForm').prepend('Your submission has been processed...');
