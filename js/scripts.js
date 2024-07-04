@@ -10,10 +10,6 @@ var submitted = false;
 
 form.addEventListener("submit", (e) => {
     if (submitted == true) {
-         //equivalent of form.reset(); 
-         var items = document.querySelectorAll(".form-control");
-         items.forEach(item => item.value = ""); 
-
         Swal.fire({
             title: "Success!",
             text: "Form submission successful!",
@@ -22,10 +18,9 @@ form.addEventListener("submit", (e) => {
     }
 });
 
-// $('#contactForm').on('submit', function(e) {
-//     $('#contactForm *').fadeOut(2000);
-//     $('#contactForm').prepend('Your submission has been processed...');
-// });
+//equivalent of form.reset(); can't put it anywhere though :(
+//var items = document.querySelectorAll(".form-control");
+//items.forEach(item => item.value = ""); 
 
 // function sendForm() {
 //     if (submitted) {
