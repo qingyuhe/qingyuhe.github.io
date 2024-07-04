@@ -108,7 +108,8 @@ form.addEventListener("submit", (e) => {
     //checkInputs(); 
     //sendEmail(); 
     sendForm(); 
-    form.reset(); 
+    form.reset();
+    submitted = false; //added in case it's causing issues
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //     sendEmail();
