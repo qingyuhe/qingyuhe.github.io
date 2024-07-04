@@ -1,9 +1,9 @@
 const form = document.querySelector("form");
-// const fullName = document.getElementById("name"); 
-// const email = document.getElementById("email");
-// const phone = document.getElementById("phone"); 
-// const subject = document.getElementById("subject"); 
-// const message = document.getElementById("message"); 
+// const fullName = document.getElementById("entry.1487397508"); 
+// const email = document.getElementById("entry.532783587");
+// const phone = document.getElementById("entry.1776779734"); 
+// const subject = document.getElementById("entry.561863393"); 
+// const message = document.getElementById("entry.586112070"); 
 // const success = document.getElementById("submitSuccessMessage")
 
 var submitted = false;
@@ -15,6 +15,12 @@ form.addEventListener("submit", (e) => {
             text: "Form submission successful!",
             icon: "success"
         });
+        
+        //equivalent of form.reset(); 
+        const items = document.querySelectorAll(".form-control");
+        for (const item of items) {
+           item.value == "";
+        }
     }
 });
 
