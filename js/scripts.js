@@ -6,13 +6,6 @@ const form = document.querySelector("form");
 // const message = document.getElementById("message"); 
 // const success = document.getElementById("submitSuccessMessage")
 
-var submitted = false;
-
-$('#gform').on('submit', function(e) {
-    $('#gform *').fadeOut(2000);
-    $('#gform').prepend('Your submission has been processed...');
-});
-
 
 function sendEmail() {
     // const bodyMessage = `Full Name: ${fullName.value}<br> 
@@ -30,16 +23,16 @@ function sendEmail() {
         Subject: "This is the subject",
         Body: "This is the body text"
     }).then(
-        message => alert(message)
-        // message => {
-        //     if (message == "OK") {
-        //         Swal.fire({
-        //             title: "Success!",
-        //             text: "Form submission successful!",
-        //             icon: "success"
-        //         });
-        //     }
-        // }
+        // message => alert(message)
+        message => {
+            if (message == "OK") {
+                Swal.fire({
+                    title: "Success!",
+                    text: "Form submission successful!",
+                    icon: "success"
+                });
+            }
+        }
     );
 }
 
