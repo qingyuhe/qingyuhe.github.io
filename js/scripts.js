@@ -15,8 +15,8 @@ form.addEventListener("submit", (e) => {
             text: "Form submission successful!",
             icon: "success"
         });
+        form.reset(); 
     }
-    form.reset(); 
 });
 
 // if (submitted) {
