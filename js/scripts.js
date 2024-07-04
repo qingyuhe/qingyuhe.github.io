@@ -8,20 +8,20 @@
 
 var submitted = false; 
 
-if (submitted) {
-    Swal.fire({
-        title: "Success!",
-        text: "Form submission successful!",
-        icon: "success"
-    });
-}
+// if (submitted) {
+//     Swal.fire({
+//         title: "Success!",
+//         text: "Form submission successful!",
+//         icon: "success"
+//     });
+// }
 
-form.reset();
+// form.reset();
 
-// $('#contactForm').on('submit', function(e) {
-//     $('#contactForm *').fadeOut(2000);
-//     $('#contactForm').prepend('Your submission has been processed...');
-// });
+$('#contactForm').on('submit', function(e) {
+    $('#contactForm *').fadeOut(2000);
+    $('#contactForm').prepend('Your submission has been processed...');
+});
 
 // function sendForm() {
 //     if (submitted) {
