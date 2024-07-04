@@ -8,10 +8,10 @@ const form = document.querySelector("form");
 
 var submitted = false; 
 
-$('#contactForm').on('submit', function(e) {
-    $('#contactForm *').fadeOut(2000);
-    $('#contactForm').prepend('Your submission has been processed...');
-});
+// $('#contactForm').on('submit', function(e) {
+//     $('#contactForm *').fadeOut(2000);
+//     $('#contactForm').prepend('Your submission has been processed...');
+// });
 
 
 function sendEmail() {
@@ -94,10 +94,11 @@ function sendEmail() {
 // }
 
 form.addEventListener("submit", (e) => {
-    //e.preventDefault();
+    // e.preventDefault();
     //checkInputs(); 
     sendEmail(); 
     form.reset(); 
+    return false; 
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //     sendEmail();
