@@ -16,9 +16,8 @@ form.addEventListener("submit", (e) => {
             icon: "success"
         });
     }
+    form.reset(); 
 });
-
-form.reset(); 
 
 // if (submitted) {
 //     Swal.fire({
