@@ -9,6 +9,7 @@ Also what is Regex?
 Do I even need some of the JS scripts I added at the bottom? 
 No emails are being sent. Why? 
 Switch smtp from elastic to gmail?? See what changes to make. 
+Do all pages need the same JS script footers? UGH
 
 <!-- 1. Update my real CV -->
 <!-- 2. Update Resume page according to real CV -->
