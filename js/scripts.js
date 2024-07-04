@@ -17,10 +17,8 @@ form.addEventListener("submit", (e) => {
         });
         
         //equivalent of form.reset(); 
-        const items = document.querySelectorAll(".form-control");
-        for (const item of items) {
-           item.value == "";
-        }
+        var items = document.querySelectorAll(".form-control");
+        items.forEach(item => item.value = ""); 
     }
 });
 
