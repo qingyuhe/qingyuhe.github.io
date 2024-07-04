@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+// const form = document.querySelector("form");
 // const fullName = document.getElementById("name"); 
 // const email = document.getElementById("email");
 // const phone = document.getElementById("phone"); 
@@ -13,35 +13,45 @@ var submitted = false;
 //     $('#contactForm').prepend('Your submission has been processed...');
 // });
 
-
-function sendEmail() {
-    // const bodyMessage = `Full Name: ${fullName.value}<br> 
-    //     Email: ${email.value}<br>
-    //     Phone: ${phone.value}<br>
-    //     Subject: ${subject.value}<br>
-    //     Message: ${message.value}`;
-
-    Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "hecynthia@gmail.com",
-        Password: "D544330883F888E309F3A0CAB8972B938D3A",
-        To: 'hecynthia@gmail.com',
-        From: "hecynthia@gmail.com",
-        Subject: "This is the subject",
-        Body: "This is the body text"
-    }).then(
-        // message => alert(message)
-        message => {
-            if (message == "OK") {
-                Swal.fire({
-                    title: "Success!",
-                    text: "Form submission successful!",
-                    icon: "success"
-                });
-            }
-        }
-    );
+function sendForm() {
+    if (submitted) {
+        Swal.fire({
+            title: "Success!",
+            text: "Form submission successful!",
+            icon: "success"
+        });
+    }
 }
+
+
+// function sendEmail() {
+//     const bodyMessage = `Full Name: ${fullName.value}<br> 
+//         Email: ${email.value}<br>
+//         Phone: ${phone.value}<br>
+//         Subject: ${subject.value}<br>
+//         Message: ${message.value}`;
+
+//     Email.send({
+//         Host: "smtp.elasticemail.com",
+//         Username: "hecynthia@gmail.com",
+//         Password: "D544330883F888E309F3A0CAB8972B938D3A",
+//         To: 'hecynthia@gmail.com',
+//         From: "hecynthia@gmail.com",
+//         Subject: "This is the subject",
+//         Body: "This is the body text"
+//     }).then(
+//         message => alert(message)
+//         message => {
+//             if (message == "OK") {
+//                 Swal.fire({
+//                     title: "Success!",
+//                     text: "Form submission successful!",
+//                     icon: "success"
+//                 });
+//             }
+//         }
+//     );
+// }
 
 // function checkInputs() {
 //     const items = document.querySelectorAll(".form-control");
@@ -96,9 +106,9 @@ function sendEmail() {
 form.addEventListener("submit", (e) => {
     // e.preventDefault();
     //checkInputs(); 
-    sendEmail(); 
+    //sendEmail(); 
+    sendForm(); 
     form.reset(); 
-    return false; 
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //     sendEmail();
