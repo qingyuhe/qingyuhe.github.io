@@ -18,6 +18,8 @@ form.addEventListener("submit", (e) => {
     }
 });
 
+form.reset(); 
+
 // if (submitted) {
 //     Swal.fire({
 //         title: "Success!",
