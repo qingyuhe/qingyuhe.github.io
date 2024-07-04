@@ -117,7 +117,7 @@ form.addEventListener("submit", (e) => {
     //checkInputs(); 
     //sendEmail(); 
     sendForm(); 
-    form.reset();
+    //form.reset();
 
     // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
     //      sendEmail();
