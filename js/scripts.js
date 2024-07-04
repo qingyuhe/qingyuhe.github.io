@@ -8,6 +8,11 @@ const form = document.querySelector("form");
 
 var submitted = false; 
 
+$('#contactForm').on('submit', function(e) {
+    $('#contactForm *').fadeOut(2000);
+    $('#contactForm').prepend('Your submission has been processed...');
+});
+
 
 function sendEmail() {
     // const bodyMessage = `Full Name: ${fullName.value}<br> 
