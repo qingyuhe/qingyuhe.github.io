@@ -13,16 +13,15 @@ var submitted = false;
 //     $('#contactForm').prepend('Your submission has been processed...');
 // });
 
-function sendForm() {
-    if (submitted) {
-        Swal.fire({
-            title: "Success!",
-            text: "Form submission successful!",
-            icon: "success"
-        });
-    }
-}
-
+// function sendForm() {
+//     if (submitted) {
+//         Swal.fire({
+//             title: "Success!",
+//             text: "Form submission successful!",
+//             icon: "success"
+//         });
+//     }
+// }
 
 // function sendEmail() {
 //     const bodyMessage = `Full Name: ${fullName.value}<br> 
@@ -103,17 +102,17 @@ function sendForm() {
 //     }
 // }
 
-form.addEventListener("submit", (e) => {
-    // e.preventDefault();
-    //checkInputs(); 
-    //sendEmail(); 
-    sendForm(); 
-    form.reset();
-    submitted = false; //added in case it's causing issues
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault();
+//     checkInputs(); 
+//     sendEmail(); 
+//     sendForm(); 
+//     form.reset();
+//     submitted = false; //added in case it's causing issues
 
-    // if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
-    //     sendEmail();
-    //     form.reset(); 
-    //     return false; 
-    // }
-}); 
+//     if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !message.classList.contains("error")) {
+//          sendEmail();
+//          form.reset(); 
+//          return false; 
+//     }
+// }); 
