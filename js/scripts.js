@@ -15,19 +15,8 @@ form.addEventListener("submit", (e) => {
             text: "Form submission successful!",
             icon: "success"
         });
-        form.reset(); 
     }
 });
-
-// if (submitted) {
-//     Swal.fire({
-//         title: "Success!",
-//         text: "Form submission successful!",
-//         icon: "success"
-//     });
-// }
-
-// form.reset();
 
 // $('#contactForm').on('submit', function(e) {
 //     $('#contactForm *').fadeOut(2000);

@@ -4,6 +4,7 @@ Hi! Welcome to my website. Below is for my eyes only:
 
 TODO: 
 0. Follow this King-Legend-Genius's instructions to link contact form to Google Form to Google Spreadsheet: https://github.com/toperkin/staticFormEmails/blob/master/README.md
+01. Add error messages for empty and invalid fields. 
 1. Try to follow tutorial step-by-step: https://www.youtube.com/watch?v=IxziwuuaS3c
 2. Should I switch SMTP from Elastic to Gmail? 
 3. Should all .html files have JS script footers? 
