@@ -48,40 +48,27 @@
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
                                 <!-- CONTACT FORM START -->
-                                <form name="contactForm" id="contactForm" data-sb-form-api-token="API_TOKEN" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf2VbD4ZHNcSw8PxwiyA2S-kN22gQ_7gmFtjhsnygl93AYZ1w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                                <form name="contactForm" id="contactForm" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf2VbD4ZHNcSw8PxwiyA2S-kN22gQ_7gmFtjhsnygl93AYZ1w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" name="entry.1487397508" id="entry.1487397508" type="text" placeholder="Enter your name..." data-sb-validations="required"/>
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" name="entry.532783587" id="entry.532783587" type="text" placeholder="name@example.com" data-sb-validations="required,email"/>
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback email" data-sb-feedback="email:email">Email is not valid.</div>
+                                        <input class="form-control" name="entry.1487397508" id="entry.1487397508" type="text" placeholder="Enter your name..." />
+                                        <label for="entry.1487397508">Full name</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" name="entry.1776779734" id="entry.1776779734" type="text" placeholder="(123) 456-7890" data-sb-validations="required"/>
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                        <input class="form-control" name="entry.532783587" id="entry.532783587" type="text" placeholder="name@example.com" />
+                                        <label for="entry.532783587">Email address</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" name="entry.561863393" id="entry.561863393" type="text" placeholder="Enter your subject here... " data-sb-validations="required"/>
-                                        <label for="subject">Subject</label>
-                                        <div class="invalid-feedback" data-sb-feedback="subject:required">A subject is required.</div>
+                                        <input class="form-control" name="entry.1776779734" id="entry.1776779734" type="text" placeholder="(123) 456-7890" />
+                                        <label for="entry.1776779734">Phone number</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" name="entry.586112070" id="entry.586112070" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                        <input class="form-control" name="entry.561863393" id="entry.561863393" type="text" placeholder="Enter your subject here... " />
+                                        <label for="entry.561863393">Subject</label>
                                     </div>
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                        </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" name="entry.586112070" id="entry.586112070" type="text" placeholder="Enter your message here..." style="height: 10rem" ></textarea>
+                                        <label for="entry.586112070">Message</label>
                                     </div>
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- <div class="d-grid"><button class="btn btn-primary btn-lg" type="submit">Submit</button></div> -->
                                     <div class="d-grid"><input class="btn btn-primary btn-lg" type="submit" value="Submit"/></div>
                                 </form>
                                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
